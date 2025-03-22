@@ -179,8 +179,6 @@ header {
     letter-spacing: -2px;
 }
 
-
-
 .sobre-mim {
     align-items: center;
 }
@@ -199,8 +197,6 @@ header {
     color: #fff;
 }
 
-
-
 .descricao p, .descricao span {
     color: #bbb;
     font-size: 18px;
@@ -214,7 +210,6 @@ header {
     font-weight: bold;
 }
 
-
 .logo {
     display: flex;
     gap: 20px;
@@ -223,12 +218,32 @@ header {
 
 .logo i {
     font-size: 40px;
-    color: #474dfc;
     transition: transform 0.3s ease;
 }
 
 .logo i:hover {
     transform: translateY(-10px);
+}
+
+/* Cores oficiais para cada tecnologia */
+.logo .fa-html5 {
+    color: #E34F26; /* Laranja do HTML5 */
+}
+
+.logo .fa-css3-alt {
+    color: #1572B6; /* Azul do CSS3 */
+}
+
+.logo .fa-js {
+    color: #F7DF1E; /* Amarelo do JavaScript */
+}
+
+.logo .fa-react {
+    color: #61DAFB; /* Azul claro do React */
+}
+
+.logo .fa-node-js {
+    color: #339933; /* Verde do Node.js */
 }
 
 /* Seção de contato */
@@ -419,4 +434,3 @@ header {
         font-size: 30px;
     }
 }
-
